@@ -204,7 +204,7 @@ void BiList::sort(){
         BiNode* min = i;
         BiNode* j = i->next;
         while (j!= nullptr){
-            if(j->data < min->data){
+            if(j->data > min->data){
                 min = j;
             }
             j = j->next;
